@@ -1,0 +1,119 @@
+---
+title: "Behind the Screens: Analyzing Super Bowl Advertising Trends"
+subtitle: |
+  | Final Project 
+  | Information Visualization (COMM_ST 395)
+author: "Group 3"
+date: today
+
+format:
+  html:
+    toc: true
+    embed-resources: true
+    
+execute:
+  echo: false
+  warning: false
+
+from: markdown+emoji 
+reference-location: margin
+citation-location: margin
+---
+
+The Super Bowl isn't just a sporting event—it's a battleground for advertisers aiming to captivate millions of viewers with their commercials. With its massive viewership and cultural significance, the Super Bowl offers a unique window into the evolution of marketing strategies in the United States.
+
+In this article, we explore the world of Super Bowl commercials using data from 2000 to 2020. By analyzing two decades of advertising campaigns, we uncover trends and shifts in marketing tactics that provide invaluable insights for future strategies.
+
+Join us as we dissect the trajectory of marketing tactics showcased through Super Bowl commercials, offering actionable insights for marketers and industry professionals seeking to craft impactful campaigns in the years ahead.
+
+![Distribution of Advertisement Strategies](./figures/insights/sb_stacked_barchart.png)
+The stacked bar graph illustrates the predominant characteristics utilized by the top 10 brands in Super Bowl commercials. A clear trend emerges, revealing that the top three ad characteristics include humor, swift product demonstrations, and the incorporation of animals. These findings underscore the effectiveness of lighthearted humor, concise product showcasing, and the emotional appeal of animal-centric narratives in capturing audience attention and engagement during the Super Bowl.
+
+Building upon these insights, let's delve deeper into the evolution of these ad characteristics over time to see how the use of these strategies has changed. 
+
+## Deciphering Super Bowl Advertising Trends
+### A Deep Dive into Ad Characteristics and Industry Dynamics
+
+The line graphs depicting the trends of key ad characteristics—humor, swift product demonstrations, and the incorporation of animals—reveal intriguing patterns over the years.
+
+![Trends in Funny Advertisements Across All Brands](./figures/insights/all_brands/funny_across_all_brands_graph.png){height=550px}
+
+**Humor**: Historically, the use of humor in Super Bowl commercials has remained consistently high, captivating audiences with its entertaining appeal. However, in recent years, we observe a notable dip in the frequency of humorous ads. This trend suggests a potential shift in advertisers' strategies or audience preferences, warranting further investigation into the evolving dynamics of humor in advertising.
+
+
+![Trends in Advertisements That Showed Product Quickly Across All Brands](./figures/insights/all_brands/show_product_quickly_across_all_brands_graph.png){height=550px}
+
+**Showing the Product Quickly**: The trend for swiftly showcasing products has exhibited relative consistency over time, punctuated by occasional dips. This consistent utilization underscores the importance of efficiently conveying product benefits and features within the limited timeframe of Super Bowl commercials, ensuring maximum impact and recall among viewers.
+
+![Trends in Animal Advertisements Across All Brands](./figures/insights/all_brands/animals_across_all_brands_graph.png){height=550px}
+
+**Animals**: The use of animals in Super Bowl commercials follows a distinctive trajectory, peaking between 2010 and 2016 before experiencing a gradual decline. The emotional resonance and shareability associated with animal-centric narratives make them a compelling choice for advertisers seeking to evoke empathy and connect with audiences on a deeper level.
+
+These ad characteristics play pivotal roles in Super Bowl commercials due to their ability to captivate, entertain, and resonate with viewers on a visceral level. Humor adds a lighthearted touch, swiftly showcasing products ensures clarity and memorability, while animals evoke emotional responses and shareability, enhancing brand recall and engagement.
+
+
+Let’s explore how these ad characteristics converge in Super Bowl commercials through watching some of these ads. 
+
+
+<iframe width = "560" height = "315" src="https://www.youtube.com/embed/JJn1vM7LB1Y" data-external= "1" > </iframe>
+
+<iframe width = "560" height = "315" src="https://www.youtube.com/embed/5tso0er4EUI" data-external= "1" > </iframe>
+
+<iframe width = "560" height = "315" src="https://www.youtube.com/embed/f34Ji70u3nk" data-external= "1" > </iframe>
+
+<iframe width = "560" height = "315" src="https://www.youtube.com/embed/nayeYTmEdYw" data-external= "1" > </iframe>
+
+
+These videos exemplify the creative synergy of humor, swift product demonstrations, and animal-centric narratives, offering captivating insights into the artistry and effectiveness of Super Bowl advertising.
+
+
+![A Comparison of All Three Trends](./figures/insights/all_brands/all_lines_on_same_graph.png){height=500px}
+
+![Zooming into the Year 2017](./figures/insights/all_brands/2017_zoom.png){height=500px}
+
+The significant dip observed in 2017 across all three ad characteristics may be attributed to various factors, including the political climate. As political tensions escalated with the onset of the Trump administration, advertisers may have shifted their focus towards more politically charged or socially conscious messaging, resulting in a decrease in the prevalence of traditional ad characteristics in Super Bowl commercials during this time. 
+
+Interestingly, these trends are most prominent within the beer and automobile industries, reflecting the strategic importance of Super Bowl advertising for brands within these sectors. The high-stakes nature of the Super Bowl, combined with its massive audience reach, makes it an ideal platform for beer and automobile brands to showcase their products, connect with consumers, and solidify their brand identities in highly competitive markets. 
+
+This prompts further analysis of these two industries.
+
+![Tree Diagram: Industry Breakdown](./figures/insights/Rplot03.png)
+
+### Unveiling Correlations Between Advertisement Characteristics
+#### Insights from the Beer Industry
+
+![Beer Industry](./figures/insights/beer.jpg)
+**Notable Relationships in the Beer Industry:**
+
+1. Animals and Patriotic: Beer brands often intertwine emotional storytelling with patriotic themes to evoke unity and cultural resonance.
+2. Animals and Showing the Product Quickly: Combining engaging animal narratives with swift product demonstrations effectively captures attention and conveys brand messages.
+3. Negative Correlation between Funny and Patriotic: Humor, while popular, may conflict with patriotic messaging in beer commercials.
+
+#### Insights from the Automobile Industry
+
+![Automobile Industry](./figures/insights/auto.jpg)
+
+**Notable Relationships in the Automobile Industry:**
+
+1. Funny across all Characteristics except Patriotic: Humor plays a central role in automotive advertising, resonating across various themes and narratives.
+2. Danger and Using Sex: Automotive brands use adrenaline-inducing experiences and sensual imagery to create excitement and desire among consumers.
+3. Patriotic Negatively Correlated with Every Characteristic: Patriotism has limited relevance in automotive advertising compared to other themes, reflecting brand positioning and target audience considerations.
+
+How might these relationships have arisen? 
+
+* **Audience Demographics and Preferences**: Advertising strategies are tailored to resonate with specific target demographics, accounting for age, gender, lifestyle, and cultural values.
+* **Brand Identity and Positioning**: Unique brand identities, values, and market positioning shape advertising strategies within each industry.
+* **Regulatory and Cultural Considerations**: Legal, ethical, and cultural factors influence the portrayal of ad characteristics, balancing creativity with compliance and cultural relevance.
+
+These correlations offer insights into the nuanced dynamics of advertising strategies within the beer and automobile industries, highlighting the interplay between ad characteristics, brand objectives, and audience perceptions.
+
+## Decoding the Art of Super Bowl Advertising
+
+In this exploration of Super Bowl advertising, we've decoded the essence of marketing strategies and dissected the nuances of ad characteristics across industries. From the dominance of humor to the strategic use of product demonstrations and emotional storytelling, Super Bowl commercials serve as powerful vehicles for brand engagement and audience connection.
+
+Our analysis of trends and correlations within the beer and automobile industries has shed light on the intricate interplay between ad characteristics, brand objectives, and audience perceptions. From patriotic themes to adrenaline-inducing experiences, each industry navigates a complex landscape of consumer preferences and cultural norms to craft impactful advertising narratives.
+
+As we conclude, it's clear that Super Bowl advertising transcends mere entertainment—it's a reflection of societal trends, cultural values, and brand aspirations. Armed with newfound insights, marketers are empowered to craft compelling narratives and resonate with audiences in an ever-evolving landscape of consumer preferences.
+
+As we eagerly anticipate the next wave of Super Bowl commercials, we embark on the journey of innovation, creativity, and storytelling excellence, shaping the future of advertising with every commercial break.
+
